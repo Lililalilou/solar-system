@@ -1,0 +1,30 @@
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Système solaire</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>Test entretien Havas Digital Factory</div>
+    <div>Le 31/05/21</div>
+  </header>
+  <div id="main">
+    <div class="popin">
+      <div>Bienvenue dans notre système solaire ! Vous pouvez orienter la caméra avec la souris et vous déplacer avec les touches haut/bas/gauche/droite.</div>
+      <button onclick="closePopin()">Commencer</button>
+    </div>
+  </div>
+  <footer>
+    <div>Projet par Nelly Martin</div>
+  </footer>
+</body>
+<script>
+  function closePopin() {
+    document.getElementsByClassName("popin")[0].classList.add("close-popin");
+  }
+</script>
+<script type="module" src="js/main.js"></script>
+</html>
