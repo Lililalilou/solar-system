@@ -74,16 +74,16 @@ function main() {
   document.addEventListener('keydown', onDocumentKeyDown)
   function onDocumentKeyDown({ which }) {
     switch (which) {
-      case '37':
+      case 37:
         camera.position.x += 1
         break
-      case '38':
+      case 38:
         camera.position.z += 1
         break
-      case '39':
+      case 39:
         camera.position.x -= 1
         break
-      case '40':
+      case 40:
         camera.position.z -= 1
         break
       default:
